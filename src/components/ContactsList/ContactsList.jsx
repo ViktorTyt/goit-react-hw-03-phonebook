@@ -36,6 +36,6 @@ ContactList.propTypes = {
       number: PropTypes.string.isRequired,
     })
   ),
-  getFiltred: PropTypes.func,
-  deleteItem: PropTypes.func,
+  getFiltred: PropTypes.func.isRequired,
+  deleteItem: PropTypes.func.isRequired,
 };
